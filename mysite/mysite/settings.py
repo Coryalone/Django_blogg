@@ -82,10 +82,10 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': '',
-        'USER': '',
-        'PASSWORD': '',
-        'HOST': 'localhost',
+        'NAME': '**',
+        'USER': '**',
+        'PASSWORD': '**',
+        'HOST': '**',
         'PORT': '',
     }
 }
@@ -144,8 +144,8 @@ INTERNAL_IPS = [
 
 EMAIL_HOST = 'smtp.yandex.ru'
 EMAIL_PORT = 465
-EMAIL_HOST_USER = 'Balaraphon@yandex.ru'
-EMAIL_HOST_PASSWORD = 'TynjGtr64'
+EMAIL_HOST_USER = '**'
+EMAIL_HOST_PASSWORD = '**'
 EMAIL_USE_TLS = False
 EMAIL_USE_SSL = True
 SERVER_EMAIL = EMAIL_HOST_USER
